@@ -1,0 +1,5 @@
+<!-- <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" width="300px" height="25px" viewBox="0 0 357.25 150"> -->
+<svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" width="140px" height="140px"> 
+	<circle cx="70" cy="70" r="60" stroke="#039BE5" stroke-width="8" fill="#2F495E" />
+	<text x="35" y="95" fill="#00E676" font-family="arial" font-size="5em">Ts</text>
+</svg>

@@ -1,0 +1,8 @@
+<!-- <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" width="300px" height="25px" viewBox="0 0 357.25 150"> -->
+<svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" width="1000px" height="140px"> 
+	<!-- <circle cx="70" cy="70" r="60" stroke="#039BE5" stroke-width="8" fill="#2F495E" /> -->
+	<text x="40" y="90" fill="#00B0FF" font-family="arial" font-size="6em">Ts</text>
+	<text x="150" y="100" fill="#2F495E" font-family="arial" font-size="6em">TeamOppy Sports</text>
+	<line x1="46" y1="45" x2="46" y2="105" stroke="#00E676" stroke-width="8"/>
+	<line x1="42" y1="105" x2="120" y2="105" stroke="#00E676" stroke-width="8"/>
+</svg>
