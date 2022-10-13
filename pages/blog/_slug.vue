@@ -1,6 +1,11 @@
 <template>
   <article>
-    <AppSearchInput />
+    <v-col class="d-flex justify-start">
+      <NuxtLink to="/blog" class="font-weight-thin text--primary" style="text-decoration: none">
+        <v-icon>mdi-arrow-left-thin</v-icon>
+        Back to Blogs
+      </NuxtLink>
+    </v-col>
     <h1 class="font-sans">{{ article.title }}</h1>
 
     <v-row>
@@ -8,21 +13,24 @@
         <p>{{ article.description }}</p>
       </v-col>
       <v-col cols="12" md="4">
-        <p>Last updated: {{ formatDate(article.updatedAt) }}</p>
+        <p class="font-weight-thin text-caption">Last updated: {{ formatDate(article.updatedAt) }}</p>
       </v-col>
-      <v-col cols="12" class="d-flex justify-center">
-        <img :src="article.image" :alt="article.alt" :width="imageWidth" />
-      </v-col>
-      <v-col cols="12">
+
+      <v-col cols="12" md="4">
         <h3>Table of Contents</h3>
         <nav>
           <ul>
-            <li v-for="link of article.toc" :key="link.id">
-              <NuxtLink :to="`#${link.id}`" class="font-bold text--primary">{{ link.text }}</NuxtLink>
+            <li :class="{ 'pl-4': link.depth === 3 }" class="toc-list" v-for="link of article.toc" :key="link.id">
+              <NuxtLink :to="`#${link.id}`" class="font-weight-bold text--primary">{{ link.text }}</NuxtLink>
             </li>
           </ul>
         </nav>
       </v-col>
+
+      <v-col cols="12" md="8" class="d-flex justify-center">
+        <img :src="article.image" :alt="article.alt" :width="imageWidth" />
+      </v-col>
+
     </v-row>
 
     <p></p>
@@ -83,6 +91,8 @@ export default {
   async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
 
+    console.log(article)
+
     const [prev, next] = await $content('articles')
       .only(['title', 'slug'])
       .sortBy('createdAt', 'asc')
@@ -114,7 +124,7 @@ export default {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
-    }
+    },
   }
 }
 </script>

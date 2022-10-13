@@ -105,7 +105,7 @@ export default {
         ]
       },
       {
-        heading: 'Useful Resources',
+        heading: 'External Resources',
         items: [
           {
             name: 'GAA PA Guide',

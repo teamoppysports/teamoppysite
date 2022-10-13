@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-text-field outlined v-model="searchQuery" type="search" autocomplete="off" placeholder="Search Articles" />
+    <v-text-field outlined v-model="searchQuery" type="search" autocomplete="off" placeholder="Search Blogs" clearable/>
     <ul v-if="articles.length">
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">

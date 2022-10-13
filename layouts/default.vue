@@ -19,10 +19,7 @@
             </v-btn>
           </span>
         </v-col>
-        <v-col>
-          <v-spacer></v-spacer>
-        </v-col>
-        <v-col>
+        <v-col cols="3" class="d-flex justify-end">
           <v-btn small outlined rounded @click="$vuetify.theme.dark = !$vuetify.theme.dark">
             {{ $vuetify.theme.dark ? 'light': 'dark'}}
             <v-icon>mdi-weather-night</v-icon>

@@ -8,6 +8,9 @@
         For all the latest news, feature updates and more, check out our <b>blog posts</b> below.
       </p>
     </v-col>
+    <v-col cols="12">
+      <AppSearchInput />
+    </v-col>
     <v-col cols="12" lg="10" offset-lg="1" v-for="article of articles" :key="article.slug">
 
       <v-card class="pa-2" outlined hover :to="{ name: 'blog-slug', params: { slug: article.slug } }">
