@@ -24,5 +24,12 @@ export default {
             return 700
         }
       },
+      logoImage() {
+        if (this.$vuetify.theme.dark) {
+          return './tslogo-dark.svg'
+        } else {
+          return './tslogo-light.svg'
+        }
+      }
     }
 }

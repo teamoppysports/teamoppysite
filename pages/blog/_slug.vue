@@ -26,18 +26,11 @@
       </v-col>
     </v-row>
 
-
-    <!-- <p>Article last updated: {{ formatDate(article.updatedAt) }}</p> -->
-
-
-
     <p></p>
 
     <nuxt-content :document="article" />
 
     <v-divider></v-divider>
-
-    <!-- <author :author="article.author"></author> -->
 
     <v-chip class="ma-2" outlined v-for="tag of article.tags" :key="tag">{{ tag }}</v-chip>
 
@@ -128,55 +121,17 @@ export default {
 </script>
 
 <style>
-/* h1 {
-  font-weight: 600;
-  font-size: 2.25rem;
- 
-}*/
+
 
 h2 {
-  /* font-weight: 600;
-  font-size: 24px; */
-  /* font-family: Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
-/* .nuxt-content h2::after {
-    content: " ";
-    width: 80%;
-    display: block;
-    border-width: 2px;
-    --border-opacity: 1;
-    border-color: #108775;
-    border-color: rgba(16, 135, 117, var(--border-opacity));
-    margin-top: 0.5rem;
-    margin-bottom: 0.25rem;
-    border-radius: 0.25rem;
-    border-style: solid;
-} */
 
 h3 {
-  /* font-weight: 600;
-  font-size: 20px; */
-  /* font-family: Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
-/* .nuxt-content h3::after {
-    content: " ";
-    width: 80%;
-    display: block;
-    border-width: 2px;
-    --border-opacity: 1;
-    border-color: #718096;
-    border-color: rgba(113, 128, 150, var(--border-opacity));
-    margin-top: 0.5rem;
-    margin-bottom: 0.25rem;
-    border-radius: 0.25rem;
-    border-style: solid;
-} */
 
 h4 {
   margin-top: 1rem;
@@ -187,12 +142,6 @@ p {
   margin-bottom: 20px !important;
   font-weight: 300;
   font-size: 16px;
-  /* font-family: Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
-}
+ }
 
-
-/* .v-application a {
-  color: #ffffff !important;
-  font-weight: bold;
-} */
 </style>

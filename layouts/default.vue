@@ -1,54 +1,48 @@
 <template>
-  <v-app>
-    <v-app-bar fixed app extended class="sticky align-center" max-height="150px">
-      <v-row class="d-flex align-center" style="height: 150px;">
-        <v-col>
-          <router-link to="/">
-            <v-img max-height="250" max-width="250" src="/tslogo-dark.svg" to="/"></v-img>
-          </router-link>
+  <v-app class="application--toolbar application--footer application--footer-fixed">
+    <header-bar></header-bar>
+
+    <v-main>
+      <v-container>
+        <Nuxt />
+      </v-container>
+      <footer-links></footer-links>
+    </v-main>
+
+    <v-footer app>
+      <v-row>
+        <v-col cols="9">
+          <span>&copy; {{ new Date().getFullYear() }} tagger.teamoppy.com</span>
+          <span>
+            <v-btn color="#0083eb" icon small href="https://twitter.com/teamoppy">
+              <v-icon color="#1d9bf0">mdi-twitter</v-icon>
+            </v-btn>
+          </span>
         </v-col>
         <v-col>
           <v-spacer></v-spacer>
         </v-col>
         <v-col>
-          <v-btn text v-for="link in links" :key="link.name" :to="link.to">
-            {{ link.name }}
+          <v-btn small outlined rounded @click="$vuetify.theme.dark = !$vuetify.theme.dark">
+            {{ $vuetify.theme.dark ? 'light': 'dark'}}
+            <v-icon>mdi-weather-night</v-icon>
           </v-btn>
         </v-col>
       </v-row>
-    </v-app-bar>
-    <v-spacer></v-spacer>
-    <v-main>
-      <v-container>
-        <Nuxt />
-      </v-container>
-      
-    </v-main>
+    </v-footer>
 
   </v-app>
 </template>
 
 <script>
+import common from '@/mixins/blog/common.js'
+
 export default {
+
+  mixins: [
+    common
+  ],
   data: () => ({
-    links: [
-      {
-        name: 'Blog',
-        to: '/blog'
-      },
-      {
-        name: 'Launchpad',
-        to: '/launchpad'
-      },
-      {
-        name: 'Docs',
-        to: '/docs'
-      },
-      {
-        name: 'About',
-        to: '/about'
-      }
-    ],
   }),
 }
 </script>

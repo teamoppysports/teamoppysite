@@ -1,11 +1,16 @@
 <template>
   <v-row>
-    <v-col cols="12" lg="10" offset-lg="1">
+    <v-col cols="12" class="d-flex justify-center">
       <h1>Blog Posts</h1>
+    </v-col>
+    <v-col cols="12" class="d-flex justify-center">
+      <p>
+        For all the latest news, feature updates and more, check out our <b>blog posts</b> below.
+      </p>
     </v-col>
     <v-col cols="12" lg="10" offset-lg="1" v-for="article of articles" :key="article.slug">
 
-      <v-card class="pa-2" :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+      <v-card class="pa-2" outlined hover :to="{ name: 'blog-slug', params: { slug: article.slug } }">
         <v-row>
           <v-col cols="12" sm="8">
             <v-card-title>

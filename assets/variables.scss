@@ -10,23 +10,20 @@ $material-dark: (
     navigation-drawer: #2F495E,
     cards: #2C3E50,
     toolbar: #2F495E
-    // #2F495E
-    // #1e344c
-    //2C3E50
 );
 
 
 $material-light: ( 
-    app-bar: #edf1f4,
-    cards: #edf1f4,
-    toolbar: #edf1f4,
+    background: #f3f5f7,
+    app-bar: #f3f5f7,
+    cards: #ffffff,
+    toolbar: #f3f5f7,
     text: (
       'theme': #2F495E,
       'primary': #2F495E,
       'secondary': #2F495E,
       'disabled': #95a7b7,
       'link': #2C3E50,
-    //   'link-hover': map-get($grey, 'darken-3')
     ),
 );
 
