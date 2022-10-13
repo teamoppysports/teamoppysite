@@ -29,7 +29,18 @@
             </v-card-text>
 
             <v-card-text>
-              by {{ article.author.name }}
+              <!-- <v-avatar v-if="article.author.avatarUrl" size="40">
+                <img :src="article.author.avatarUrl" :alt="article.author.name">
+              </v-avatar> -->
+              <v-row>
+                <v-col>
+                  <span class="font-weight-thin text-caption">By {{ article.author.name }}</span>
+                </v-col>
+                <v-col class="d-flex justify-end">
+                  <span class="font-weight-thin text-caption">{{ formatDate(article.publishedAt) }}</span>
+                </v-col>
+              </v-row>
+              
             </v-card-text>
           </v-col>
           <v-col cols="12" sm="5" class="d-flex align-center justify-center">
@@ -49,7 +60,7 @@ import common from '@/mixins/blog/common.js'
 export default {
   async asyncData({ $content, params }) {
     const articles = await $content('articles')
-      .only(['title', 'description', 'image', 'slug', 'author', 'tags'])
+      .only(['title', 'description', 'image', 'slug', 'author', 'tags', 'publishedAt'])
       .sortBy('createdAt', 'asc')
       .fetch()
 

@@ -1,25 +1,24 @@
 ---
 title: Introducing Clipper
-description: Advanced Video Analysis tool
+description: Clipper is used for Advanced Video Analysis. Create Clips and Playlists. Add graphics and text to the clips to highlight important points.
 image: /images/welcome/image.png
-publishedAt: 2020-12-17
+publishedAt: 2022-10-16
 author:
   name: Teamoppy Sports
-    # avatarUrl: /tsavatar.svg
-    # link: https://twitter.com/teamoppy
-  bio: This is my bio
+  # avatarUrl: /tsavatar-v2.svg
+  link: https://twitter.com/teamoppy
 tags:
-  - Alert
-  - CodeGroup
-  - CodeSandbox
-link: https://codesandbox.io/embed/nuxt-content-l164h?hidenavigation=1&theme=dark
+  - Video
+  - Graphics
+  - Clips
+  - Playlists
 ---
 
-## Alert
+## What is Clipper?
 
 
-## CodeGroup
+## Enhancing the clip
 
 
-## CodeSandbox
+## Share
 

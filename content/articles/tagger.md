@@ -2,9 +2,11 @@
 title: Introducing Tagger
 description: Tagger is an Event Tagging application with a built in Dashboard. It can be used for live game tagging or for post game video tagging. Tagger accelerates the event tagging and analysis process.
 image: /images/blog/tagger/tagger_landscape.png
-publishedAt: 2020-12-18
+publishedAt: 2022-10-16
 author:
   name: Teamoppy Sports
+  avatarUrl: /tsavatar.svg
+  link: https://twitter.com/teamoppy
 
 tags:
   - Tag
