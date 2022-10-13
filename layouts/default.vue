@@ -12,7 +12,7 @@
     <v-footer app>
       <v-row>
         <v-col cols="9">
-          <span>&copy; {{ new Date().getFullYear() }} tagger.teamoppy.com</span>
+          <span>&copy; {{ new Date().getFullYear() }} teamoppy.com</span>
           <span>
             <v-btn color="#0083eb" icon small href="https://twitter.com/teamoppy">
               <v-icon color="#1d9bf0">mdi-twitter</v-icon>

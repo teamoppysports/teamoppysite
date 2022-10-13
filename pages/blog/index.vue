@@ -12,7 +12,7 @@
 
       <v-card class="pa-2" outlined hover :to="{ name: 'blog-slug', params: { slug: article.slug } }">
         <v-row>
-          <v-col cols="12" sm="8">
+          <v-col cols="12" sm="7">
             <v-card-title>
               <span>{{ article.title }}</span>
             </v-card-title>
@@ -29,7 +29,7 @@
               by {{ article.author.name }}
             </v-card-text>
           </v-col>
-          <v-col cols="12" sm="4" class="d-flex align-center justify-center">
+          <v-col cols="12" sm="5" class="d-flex align-center justify-center">
             <v-img :src="article.image" :aspect-ratio="16/9" :width="imageWidth" contain></v-img>
           </v-col>
         </v-row>

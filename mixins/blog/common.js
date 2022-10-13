@@ -19,16 +19,16 @@ export default {
           case 'md':
             return 500
           case 'lg':
-            return 600
-          case 'xl':
             return 700
+          case 'xl':
+            return 1000
         }
       },
       logoImage() {
         if (this.$vuetify.theme.dark) {
-          return './tslogo-dark.svg'
+          return '/tslogo-dark.svg'
         } else {
-          return './tslogo-light.svg'
+          return '/tslogo-light.svg'
         }
       }
     }

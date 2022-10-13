@@ -43,6 +43,13 @@
             <v-spacer></v-spacer>
           </v-col>
 
+          <v-col cols="12" class="d-flex justify-center">
+            <div>
+              <v-img src="images/welcome/charts.svg" :width="imageWidth">
+              </v-img>
+            </div>
+          </v-col>
+
           <v-col cols="12" md="5" offset-md="1">
             <v-row>
               <v-col v-for="(info, index) in taggerInfoCards" :key="index" class="d-flex justify-center" cols="12">
@@ -89,6 +96,22 @@
             </v-row>
           </v-col>
 
+          <v-col cols="12" class="d-flex justify-center">
+            <v-card outlined max-width="500">
+              <v-card-title>
+                Latest news
+              </v-card-title>
+              <v-card-text>
+                For all the latest news, feature updates and more, check out our blog posts page.
+              </v-card-text>
+              <v-card-actions>
+                <v-spacer></v-spacer>
+                <v-btn outlined large to="/blog">Blog</v-btn>
+              </v-card-actions>
+            </v-card>
+
+          </v-col>
+
 
           <v-col cols="12" lg="8" offset-lg="2" class="d-flex justify-center">
             <div class="blockquote">
@@ -97,8 +120,8 @@
                   "My interest in Performance Analysis started through involvement with my local sports team.
                   TeamOppy Sports was born out as a hobby project during the Covid years when I, like so many others had
                   alot of extra time on their hands.
-                  Hopefully the applications that I have developed will be useful to many and enhance performance
-                  for players and coaches at all levels of sport.""
+                  Hopefully the applications that I have developed will be useful to many and help to improve performance
+                  for players and coaches at all levels of sport."
                 </p>
                 <p class="editable author">Peter - Owner and Developer of TeamOppy Sports.</p>
               </blockquote>

@@ -11,14 +11,13 @@
         <p>Last updated: {{ formatDate(article.updatedAt) }}</p>
       </v-col>
       <v-col cols="12" class="d-flex justify-center">
-        <img :src="article.image" :alt="article.alt" :width="imageWidth"/>
+        <img :src="article.image" :alt="article.alt" :width="imageWidth" />
       </v-col>
       <v-col cols="12">
         <h3>Table of Contents</h3>
         <nav>
           <ul>
             <li v-for="link of article.toc" :key="link.id">
-              <!-- <NuxtLink :to="`#${link.id}`"><span style="color:aliceblue">{{ link.text }}</span></NuxtLink> -->
               <NuxtLink :to="`#${link.id}`" class="font-bold text--primary">{{ link.text }}</NuxtLink>
             </li>
           </ul>
@@ -48,7 +47,7 @@ export default {
 
   head() {
     return {
-      title: this.article.title,
+      title: this.article ? this.article.title : undefined,
       meta: [
         ...this.meta,
         ...this.meta,
@@ -103,10 +102,10 @@ export default {
     meta() {
       const metaData = {
         type: "article",
-        title: this.article.title,
-        description: this.article.description,
+        title: this.article ? this.article.title : undefined,
+        description: this.article ? this.article.description : undefined,
         url: `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
-        mainImage: this.article.image,
+        mainImage: this.article ? this.article.image : undefined,
       };
       return getSiteMeta(metaData);
     }
@@ -121,8 +120,6 @@ export default {
 </script>
 
 <style>
-
-
 h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -142,6 +139,5 @@ p {
   margin-bottom: 20px !important;
   font-weight: 300;
   font-size: 16px;
- }
-
+}
 </style>
