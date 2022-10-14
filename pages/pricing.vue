@@ -34,7 +34,7 @@
     </v-col>
     <v-col>
       <p>
-        TeamOppy Sports operates on a pay what you think it's worth model. All TeamOppy Sports apps are freely
+        TeamOppy Sports operates on a "pay what you think it's worth" model. All TeamOppy Sports apps are freely
         available.
       </p>
       <p>

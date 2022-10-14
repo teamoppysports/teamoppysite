@@ -57,7 +57,17 @@ Pretty much everything in Tagger is customisable. Go to the Configuration page t
 - Charts
 - Position Maps
 - Player Tables
-- Passages of play,
+- Passages of play
+
+## Share
+
+Tagger generates a JSON (data) file with game and configuration data. This can be easily shared by sending directly to team members who can import into the app or it can be shared by generating a direct link to the JSON file on Google Drive.
+
+### Example
+
+
+[Kilkenny versus Limerick - 2022 All-Ireland Hurling Final](https://tagger.teamoppy.com/?game=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1evoA6USB3yfmxu6X4lqBPoA6pB2zx3gJ%2Fview%3Fusp%3Dsharing) is a simple example of tagging Shots, Puckouts and Possessions.
+
 
 ## Progressive Web Application
 
@@ -70,4 +80,3 @@ Tagger is installable which means it can run in a standalone window instead of a
 ### Offline mode
 
 Tagger can run in offline mode (i.e. no internet connection) or online mode.
-

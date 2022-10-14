@@ -74,7 +74,7 @@
           </v-col>
 
           <v-col cols="12" md="5" class="d-flex align-center">
-            <v-img :src="logoImage" alt="Screenshot" class="screenshot" :width="imageWidth" />
+            <v-img src="images/welcome/clipper_home_page.png" alt="Screenshot" class="screenshot" :width="imageWidth" />
           </v-col>
 
           <v-col cols="12" md="5" offset-md="1">
@@ -118,7 +118,7 @@
               <blockquote>
                 <p class="text-caption font-italic">
                   "My interest in Performance Analysis started through involvement with my local sports team.
-                  TeamOppy Sports was born out as a hobby project during the Covid years when I, like so many others had alot of extra time on their hands.
+                  TeamOppy Sports was born out as a hobby project during the Covid years when I, like so many others had some extra time on my hands!
                   Hopefully the TeamOppy Sports applications will be useful to many and assist in the performance analysis process for Analysts, Players and Coaches at all levels of sport."
                 </p>
                 <p class="editable author">Peter - Owner and Developer of TeamOppy Sports.</p>
@@ -146,7 +146,7 @@ export default {
       taggerInfoCards: [
         {
           title: 'Key performance indicators',
-          mainText: 'The Tagger application helps you to tag events along with the event position (x,y) as they occur in the game and view the results in the Dashboard and Player Data pages.',
+          mainText: 'The Tagger application enables you to tag events along with the event position (x,y) as they occur in the game and view the results in the Dashboard and Player Data pages.',
           icon: {
             name: 'mdi-tag-text',
             color: 'blue'
