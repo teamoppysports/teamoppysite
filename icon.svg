@@ -1,0 +1,5 @@
+<svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" width="100px" height="100px"> 
+	<text x="10" y="70" fill="#00B0FF" font-family="arial" font-size="6em">Ts</text>
+	<line x1="16" y1="35" x2="16" y2="85" stroke="#00E676" stroke-width="8"/>
+	<line x1="12" y1="85" x2="92" y2="85" stroke="#00E676" stroke-width="8"/>
+</svg>
