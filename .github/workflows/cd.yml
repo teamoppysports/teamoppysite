@@ -27,6 +27,7 @@ jobs:
         run: npm run generate
         env:
           BASE_URL: ${{ secrets.BASE_URL }}
+          GA_PROPERTY: ${{ secrets.GA_PROPERTY }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
