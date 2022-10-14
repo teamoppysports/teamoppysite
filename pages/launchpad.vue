@@ -77,7 +77,7 @@
             name: 'mdi-cloud',
             color: 'blue' 
           },
-          link: 'https://db.teamoppy.com',
+          link: 'https://dbx.teamoppy.com',
           description: 'This is the original teamoppy app. Set up a team and add members. Create games - tag and analyse. Track progress with season charts. Uses the Dropbox API to store your data.',
           tags: [
             'Dropbox',

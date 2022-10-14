@@ -78,7 +78,7 @@ export default {
               name: 'mdi-cloud',
               color: 'blue'
             },
-            link: 'https://db.teamoppy.com'
+            link: 'https://dbx.teamoppy.com'
           }
         ]
       },
