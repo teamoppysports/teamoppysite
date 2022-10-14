@@ -11,9 +11,9 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  router: {
-    base: '/teamoppysite/'
-  },
+  // router: {
+  //   base: '/teamoppysite/'
+  // },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -30,9 +30,9 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
       { hid: 'twitter:site', name: 'twitter:site', content: '@teamoppy'},
-      { hid: 'twitter:title', name: 'twitter:title', content: 'Clipper (from TeamOppy Sports)'},
-      { hid: 'twitter:description', name: 'twitter:description', content: 'Sports Video Analysis - clip, draw, tag, share, play.' },
-      // { hid: 'twitter:image', name: 'twitter:image', content: 'https://clipper.teamoppy.com/twitter/image.png'},
+      { hid: 'twitter:title', name: 'twitter:title', content: 'from TeamOppy Sports'},
+      { hid: 'twitter:description', name: 'twitter:description', content: 'Sports Performance Analysis Applications' },
+      { hid: 'twitter:image', name: 'twitter:image', content: 'https://teamoppy.com/images/twitter/charts.svg'},
 
     ],
 
