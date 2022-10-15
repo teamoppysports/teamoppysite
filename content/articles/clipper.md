@@ -48,3 +48,6 @@ Clipper is installable which means it can run in a standalone window instead of 
 
 Clipper can run in offline mode (i.e. no internet connection) if using a local video file but needs to be online (connected to the internet) to be able to use YouTube or Vimeo video sources.
 
+## Get Started
+
+Click here to get started - [Clipper](https://clipper.teamoppy.com)

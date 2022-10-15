@@ -21,9 +21,9 @@
           </thead>
           <tbody>
             <tr>
-              <td class="text-center" style="color:lightgreen">Free</td>
-              <td class="text-center" style="color:lightgreen">Free</td>
-              <td class="text-center" style="color:lightgreen">Free</td>
+              <td class="text-center" :style="freeStyleColor">Free</td>
+              <td class="text-center" :style="freeStyleColor">Free</td>
+              <td class="text-center" :style="freeStyleColor">Free</td>
             </tr>
           </tbody>
         </template>
@@ -48,4 +48,16 @@
 </template>
 
 <script>
+
+export default {
+  computed: {
+    freeStyleColor() {
+      if (this.$vuetify.theme.dark){
+        return 'color:lightgreen'
+      }else{
+        return 'color:darkgreen'
+      }
+    }
+  }
+}
 </script>

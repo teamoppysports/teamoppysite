@@ -1,8 +1,8 @@
 const type = "website";
-const url = "https://bobross.com";
-const title = "My Amazing Blog on The Joy of Painting";
-const description = "Articles focused on the beautiful art of landscape painting.";
-const mainImage = "/a-lovely-image.png";
+const url = "https://teamoppy.com";
+const title = "TeamOppy Sports";
+const description = "Sports Performance Analysis Software";
+const mainImage = "/icon.png";
 
 export default (meta) => {
   return [
