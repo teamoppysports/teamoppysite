@@ -83,17 +83,15 @@ export default {
         {
           hid: "canonical",
           rel: "canonical",
-          href: `https://bobross.com/articles/${this.$route.params.slug}`,
+          href: `https://teamoppy.com/blog/${this.$route.params.slug}`,
         },
       ],
     };
   },
   async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
+    const article = await $content('blog', params.slug).fetch()
 
-    console.log(article)
-
-    const [prev, next] = await $content('articles')
+    const [prev, next] = await $content('blog')
       .only(['title', 'slug'])
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
@@ -114,7 +112,7 @@ export default {
         type: "article",
         title: this.article ? this.article.title : undefined,
         description: this.article ? this.article.description : undefined,
-        url: `${this.$config.baseUrl}/articles/${this.$route.params.slug}`,
+        url: `${this.$config.baseUrl}/blog/${this.$route.params.slug}`,
         mainImage: this.article ? this.article.image : undefined,
       };
       return getSiteMeta(metaData);

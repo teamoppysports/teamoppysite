@@ -59,7 +59,7 @@ import common from '@/mixins/blog/common.js'
 
 export default {
   async asyncData({ $content, params }) {
-    const articles = await $content('articles')
+    const articles = await $content('blog')
       .only(['title', 'description', 'image', 'slug', 'author', 'tags', 'publishedAt'])
       .sortBy('createdAt', 'asc')
       .fetch()
