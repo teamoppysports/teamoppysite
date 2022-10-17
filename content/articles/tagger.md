@@ -81,6 +81,10 @@ Tagger is installable which means it can run in a standalone window instead of a
 
 Tagger can run in offline mode (i.e. no internet connection) or online mode.
 
+## Thanks
+
+A word of thanks to all the volunteers who helped to test Tagger, providing very positive feedback and also making some really good suggestions for new features which will be worked on in the coming months.
+
 ## Get Started
 
 Click here to get started - [Tagger](https://tagger.teamoppy.com)
