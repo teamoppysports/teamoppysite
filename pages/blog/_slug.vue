@@ -55,8 +55,8 @@ export default {
 
   head() {
 
-    const url = `${this.$config.baseUrl}/blog/${this.article.slug}`
-    const image = `${this.$config.baseUrl}${this.article.image}`
+    const url = `${process.env.baseUrl}/blog/${this.article.slug}`
+    const image = `${process.env.baseUrl}${this.article.image}`
     const { title, description } = this.article
 
     return {
