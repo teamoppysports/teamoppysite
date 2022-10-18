@@ -1,7 +1,6 @@
 import getRoutes from "./utils/getRoutes";
-import getSiteMeta from "./utils/getSiteMeta";
 
-const meta = getSiteMeta();
+import { createSEOMeta } from "./utils/seo";
 
 export default {
   
@@ -11,29 +10,21 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  // router: {
-  //   base: '/teamoppysite/'
-  // },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - website',
+    titleTemplate: '%s',
     title: 'Teamoppy Sports - Performance Analysis',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
-      ...meta,
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Performance Analysis - event tagging, analysis, video analysis, dashboards' },
-      { name: 'format-detection', content: 'telephone=no' },
-      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image'},
-      { hid: 'twitter:site', name: 'twitter:site', content: '@teamoppy'},
-      { hid: 'twitter:title', name: 'twitter:title', content: 'from TeamOppy Sports'},
-      { hid: 'twitter:description', name: 'twitter:description', content: 'Sports Performance Analysis Applications' },
-      { hid: 'twitter:image', name: 'twitter:image', content: 'https://teamoppy.com/images/twitter/charts.svg'},
-
+      ...createSEOMeta({
+        title: "TeamOppy Sports",
+        description: "Performance Analysis - event tagging, analysis, video analysis, dashboards",
+        image: "/images/twitter/charts.svg",
+        url: process.env.BASE_URL,
+      }),
     ],
 
     link: [

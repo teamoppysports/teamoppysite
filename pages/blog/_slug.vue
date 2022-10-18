@@ -47,46 +47,21 @@
 </template>
 
 <script>
-import getSiteMeta from "/utils/getSiteMeta";
+import { createSEOMeta } from "/utils/seo";
 
 import common from '@/mixins/blog/common.js'
 
 export default {
 
   head() {
+
+    const url = `${this.$config.baseUrl}/blog/${this.article.slug}`
+    const { title, description, image } = this.article
+
     return {
-      title: this.article ? this.article.title : undefined,
-      meta: [
-        ...this.meta,
-        ...this.meta,
-        {
-          property: "article:published_time",
-          content: this.article.createdAt,
-        },
-        {
-          property: "article:modified_time",
-          content: this.article.updatedAt,
-        },
-        {
-          property: "article:tag",
-          content: this.article.tags ? this.article.tags.toString() : "",
-        },
-        { name: "twitter:label1", content: "Written by" },
-        { name: "twitter:data1", content: "Bob Ross" },
-        { name: "twitter:label2", content: "Filed under" },
-        {
-          name: "twitter:data2",
-          content: this.article.tags ? this.article.tags.toString() : "",
-        },
-      ],
-      link: [
-        {
-          hid: "canonical",
-          rel: "canonical",
-          href: `https://teamoppy.com/blog/${this.$route.params.slug}`,
-        },
-      ],
-    };
+      title,
+      meta: createSEOMeta({ title, description, image, url }),
+    }
   },
   async asyncData({ $content, params }) {
     const article = await $content('blog', params.slug).fetch()
@@ -107,16 +82,6 @@ export default {
     common
   ],
   computed: {
-    meta() {
-      const metaData = {
-        type: "article",
-        title: this.article ? this.article.title : undefined,
-        description: this.article ? this.article.description : undefined,
-        url: `${this.$config.baseUrl}/blog/${this.$route.params.slug}`,
-        mainImage: this.article ? this.article.image : undefined,
-      };
-      return getSiteMeta(metaData);
-    }
   },
   methods: {
   }
