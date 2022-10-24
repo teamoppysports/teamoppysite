@@ -1,7 +1,7 @@
 ---
 title: Welcome to TeamOppy Sports
 description: Welcome to TeamOppy Sports - Performance Analysis software.
-image: /images/welcome/charts.svg
+image: /images/welcome/charts.png
 publishedAt: 2022-10-16
 author:
   name: Teamoppy Sports
