@@ -24,7 +24,7 @@ export default {
       ...createSEOMeta({
         title: "TeamOppy Sports",
         description: "Performance Analysis - event tagging, analysis, video analysis, dashboards",
-        image: process.env.BASE_URL+"/images/twitter/charts.svg",
+        image: process.env.BASE_URL+"/images/twitter/charts.png",
         url: process.env.BASE_URL,
       }),
     ],
