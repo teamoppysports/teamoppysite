@@ -55,23 +55,23 @@ export default {
 
   head() {
 
-    const url = `${process.env.baseUrl}/blog/${this.article.slug}`
-    const image = `${process.env.baseUrl}${this.article.image}`
-    const { title, description } = this.article
-
     return {
-      title,
+      title: this.article.title,
       meta:
         [
-          { charset: 'utf-8' },
-          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-          ...createSEOMeta({
-            title: title,
-            type: 'article',
-            description: description,
-            image: image,
-            url: url,
-          }),
+          ...this.meta,
+          {
+            property: "article:published_time",
+            content: this.article.createdAt,
+          },
+          {
+            property: "article:modified_time",
+            content: this.article.updatedAt,
+          },
+          {
+            property: "article:tag",
+            content: this.article.tags ? this.article.tags.toString() : "",
+          },
         ]
     }
   },
@@ -94,6 +94,19 @@ export default {
     common
   ],
   computed: {
+    meta() {
+      const url = `${process.env.baseUrl}/blog/${this.article.slug}`
+      const image = `${process.env.baseUrl}${this.article.image}`
+
+      const metaData = {
+        type: "article",
+        title: this.article.title,
+        description: this.article.description,
+        url: url,
+        image: image,
+      };
+      return createSEOMeta(metaData);
+    }
   },
   methods: {
   }
