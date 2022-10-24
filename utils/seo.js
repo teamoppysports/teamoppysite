@@ -29,15 +29,16 @@ export const createSEOMeta = (data) => [
     {
         hid: 'twitter:card',
         name: 'twitter:card',
-        // content: data.cardType || 'summary_large_image',
-        content: data.cardType || 'summary',
+        content: data.cardType || 'summary_large_image',
+        //content: data.cardType || 'summary',
     },
     { 
         hid: 'twitter:description', 
         name: 'twitter:description', 
         content: data.description},
-    { 
-        hid: 'twitter:image', 
-        name: 'twitter:image', 
-        content: data.image},
+    // { 
+    //     hid: 'twitter:image', 
+    //     name: 'twitter:image', 
+    //     content: data.image
+    // },
 ]
