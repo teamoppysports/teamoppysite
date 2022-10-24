@@ -61,7 +61,18 @@ export default {
 
     return {
       title,
-      meta: createSEOMeta({ title, description, image, url }),
+      meta:
+        [
+          { charset: 'utf-8' },
+          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+          ...createSEOMeta({
+            title: title,
+            type: 'article',
+            description: description,
+            image: image,
+            url: url,
+          }),
+        ]
     }
   },
   async asyncData({ $content, params }) {
