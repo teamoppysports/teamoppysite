@@ -1,6 +1,6 @@
 ---
 title: Clipper Release Notes
-description: This is the central note that describes the changes that occur in the Clipper application
+description: This is the main release note blog that describes changes that are made in the Clipper application.
 image: /images/blog/clipper-release-notes/clipper_release_notes.png
 publishedAt: 2022-11-02
 author:
