@@ -101,6 +101,15 @@ export default {
             },
             link: '/privacy',
             target: '_self'
+          },
+          {
+            name: 'Terms of Use',
+            icon: {
+              name: 'mdi-file-document-outline',
+              color: 'deep-orange'
+            },
+            link: '/terms',
+            target: '_self'
           }
         ]
       },

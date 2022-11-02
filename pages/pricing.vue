@@ -34,14 +34,10 @@
     </v-col>
     <v-col>
       <p>
-        TeamOppy Sports operates on a "pay what you think it's worth" model. All TeamOppy Sports apps are freely
-        available.
+        All TeamOppy Sports apps are freely available. There are however costs associated with operating TeamOppy Sports including hosting fees along with the time and effort involved.
       </p>
       <p>
-        There are however costs associated with operating TeamOppy Sports including hosting fees along with the time and effort involved.
-      </p>
-      <p>
-        If you would like to support us then you can do so by visiting <a href="https://www.buymeacoffee.com/teamoppysports" target="_blank" style="text-decoration: none">here</a>.
+        If you would like to support us then you can do so by visiting <a href="https://www.buymeacoffee.com/teamoppysports" target="_blank" style="text-decoration: none">here</a> or email <a href="mailto:info@teamoppy.com" target="_blank" style="text-decoration: none">info@teamoppy.com</a> if you would like to sponsor..
       </p>
     </v-col>
   </v-row>
