@@ -13,6 +13,20 @@ tags:
   - Playlists
 ---
 
+## Nov 08, 2022
+
+This release contains the following changes:
+- Default Properties section
+- Maximised video in the Player on mobile devices
+
+### Default Properties section
+
+In the Editor view, when clicking on the drawing objects (e.g. ellipse, arrow, etc...) the objects default properties will be displayed and can be modified up front prior to adding the object to the video layer. Previously the objects were only modifiable after adding the object to the layer. This provides a much better user experience for the video analyst.
+
+### Maximised video in the Player on mobile devices
+
+On mobile devices the video is now maximised to use full width and height of the device (to an aspect ratio of 16:9) in the Player view. This enhances the user experience for the playlist audience as many will receive and view the playlists via their mobile device.
+
 ## Nov 02, 2022
 
 This release contains the following changes:
