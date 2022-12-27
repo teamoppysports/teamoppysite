@@ -3,7 +3,7 @@
     <v-col cols="12" class="d-flex justify-center">
       <h1>Application Launchpad</h1>
     </v-col>
-    <v-col v-for="app in applications" :key="app.name" class="d-flex justify-center" cols="12" lg="4" md="6" sm="12">
+    <v-col v-for="app in applications" :key="app.name" class="d-flex justify-center" cols="12" md="6" sm="12">
       <v-card class="d-flex flex-column" tile hover outlined :href="app.link" target="_blank" max-width="500"
         height="500">
         <v-card-title>
@@ -87,24 +87,24 @@ export default {
             'Playlists'
           ]
         },
-        {
-          name: 'TeamOppy Dropbox',
-          briefDescription: 'Team setup, games, tagging, video, dashboard. Dropbox storage.',
-          icon: {
-            name: 'mdi-cloud',
-            color: 'blue'
-          },
-          link: 'https://dbx.teamoppy.com',
-          description: 'This is the original teamoppy app. Set up a team and add members. Create games - tag and analyse. Track progress with season charts. Uses the Dropbox API to store your data.',
-          tags: [
-            'Dropbox',
-            'Teams',
-            'Games',
-            'Tag',
-            'Analyse'
-          ],
-          note: 'Note: This app is currently in maintenance mode, meaning that only occasional bug fixes will be applied. Focus will be directed to enhancing the Tagger and Clipper apps going forward.'
-        }
+        // {
+        //   name: 'TeamOppy Dropbox',
+        //   briefDescription: 'Team setup, games, tagging, video, dashboard. Dropbox storage.',
+        //   icon: {
+        //     name: 'mdi-cloud',
+        //     color: 'blue'
+        //   },
+        //   link: 'https://dbx.teamoppy.com',
+        //   description: 'This is the original teamoppy app. Set up a team and add members. Create games - tag and analyse. Track progress with season charts. Uses the Dropbox API to store your data.',
+        //   tags: [
+        //     'Dropbox',
+        //     'Teams',
+        //     'Games',
+        //     'Tag',
+        //     'Analyse'
+        //   ],
+        //   note: 'Note: This app is currently in maintenance mode, meaning that only occasional bug fixes will be applied. Focus will be directed to enhancing the Tagger and Clipper apps going forward.'
+        // }
       ]
     }
   },

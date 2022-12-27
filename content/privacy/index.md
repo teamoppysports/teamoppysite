@@ -10,7 +10,7 @@ No, TeamOppy Sports does not collect or store any personal data.
 
 - Tagger does not collect personal data. Data is local to the device where the application is accessed.
 - Clipper does not collect personal data. Data is local to the device where the application is accessed.
-- TeamOppy Dropbox does not collect personal data. The application integrates directly with Dropbox where your data is stored.
+<!-- - TeamOppy Dropbox does not collect personal data. The application integrates directly with Dropbox where your data is stored. -->
 
 ## Cookies
 Cookies are text files placed on your computer to collect standard Internet log information and visitor behavior information. When you visit our website, we may collect information from you automatically through cookies or similar technology.
@@ -30,7 +30,7 @@ localStorage is a property that allows JavaScript sites and apps to save key-val
 TeamOppy Sports uses local storage in a number of ways:
 
 - to keep you connected to dropbox
-- to cache data that you retrieve from Dropbox for improved performance.
+<!-- - to cache data that you retrieve from Dropbox for improved performance. -->
 - overall functionality of the website
 
 ## Privacy policies of other websites

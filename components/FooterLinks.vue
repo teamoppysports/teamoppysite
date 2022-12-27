@@ -72,14 +72,14 @@ export default {
             },
             link: 'https://clipper.teamoppy.com'
           },
-          {
-            name: 'TeamOppy Dropbox',
-            icon: {
-              name: 'mdi-cloud',
-              color: 'blue'
-            },
-            link: 'https://dbx.teamoppy.com'
-          }
+          // {
+          //   name: 'TeamOppy Dropbox',
+          //   icon: {
+          //     name: 'mdi-cloud',
+          //     color: 'blue'
+          //   },
+          //   link: 'https://dbx.teamoppy.com'
+          // }
         ]
       },
       {
