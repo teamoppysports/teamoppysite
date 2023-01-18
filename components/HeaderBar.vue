@@ -68,6 +68,14 @@ export default {
         },
       },
       {
+        name: 'Docs',
+        to: '/docs',
+        icon: {
+          name: 'mdi-file-document',
+          color: 'pink lighten-2'
+        },
+      },
+      {
         name: 'Pricing',
         to: '/pricing',
         icon: {
