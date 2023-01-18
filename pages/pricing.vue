@@ -21,7 +21,7 @@
           </thead>
           <tbody>
             <tr>
-              <td class="text-center" :style="freeStyleColor">Free</td>
+              <td class="text-center" :style="freeStyleColor">€8 per month or €88 per year</td>
               <td class="text-center" :style="freeStyleColor">Free</td>
               <!-- <td class="text-center" :style="freeStyleColor">Free</td> -->
             </tr>
@@ -29,15 +29,15 @@
         </template>
       </v-simple-table>
     </v-col>
-    <v-col cols="12" class="d-flex justify-center">
+    <!-- <v-col cols="12" class="d-flex justify-center">
       <h1>Status</h1>
     </v-col>
     <v-col>
       <p>
         All TeamOppy Sports apps are currently freely available while they are in Beta mode. Pricing and Package options will be available later in 2023.
       </p>
-    </v-col>
-  </v-row>
+    </v-col> -->
+  </v-row> 
 </template>
 
 <script>
