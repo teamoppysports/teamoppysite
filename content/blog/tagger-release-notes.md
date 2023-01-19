@@ -26,7 +26,9 @@ This update documents the following changes:
 
 ### New Sign Up and Subscription functionality
 
-New sign up and sign in functionality has been added. A 60 day trial is in place after sign up. Basic subscription plan is available to subscribe to. Limited functionality in free mode.
+New sign up and sign in functionality has been added. A 60 day trial is in place after sign up. Basic subscription plan is available to subscribe to. 
+
+Limited functionality in free mode (3 primary event buttons, 3 event accelerators).
 
 ### New Data Model
 
