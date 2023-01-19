@@ -22,6 +22,7 @@ This update documents the following changes:
 - Synchronize data with video
 - Default Player Event functionality
 - XML Download
+- Edit Event Instance
 
 ### New Sign Up and Subscription functionality
 
@@ -61,6 +62,10 @@ There is an option now on the Tagger page to select a "Default" event. When a "D
 ### XML Download
 
 There is now the ability to download the event data in XML format compatible with industry standard.
+
+### Edit Event Instance
+
+You can now edit an event instance that was tagged, instead of having to delete and re-tag.
 
 <br/>
 
