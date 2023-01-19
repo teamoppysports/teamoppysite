@@ -1,10 +1,10 @@
 <template>
-  <v-row >
+  <v-row>
     <v-col cols="12" md="2">
       <h3>Table of Contents</h3>
-      <nav>
+      <nav class="d-flex justify-start">
         <ul>
-          <li :class="{ 'pl-4': link.depth === 3 }" class="toc-list" v-for="link of doc.toc" :key="link.id">
+          <li :class="{ 'pl-3': link.depth === 3 }" class="toc-list" v-for="link of doc.toc" :key="link.id">
             <NuxtLink :to="`#${link.id}`" class="font-weight-bold text--primary">{{ link.text }}</NuxtLink>
           </li>
         </ul>
@@ -13,19 +13,20 @@
     <v-col cols="12" md="1">
       <v-divider vertical></v-divider>
     </v-col>
-    <v-col cols="12" md="9">
-      <article>
-        <v-col cols="12" md="4">
+    <v-col cols="12" md="9" >
 
-        </v-col>
+        <article>
+          <v-col cols="12" md="4">
 
-        <h1>{{ doc.title }}</h1>
-        <h2 class="font-weight-thin">{{ doc.description }}</h2>
+          </v-col>
 
-        <br><br>
-        <nuxt-content :document="doc" />
+          <h1>{{ doc.title }}</h1>
+          <h2 class="font-weight-thin">{{ doc.description }}</h2>
 
-      </article>
+          <br><br>
+          <nuxt-content :document="doc" />
+
+        </article>
     </v-col>
   </v-row>
 
@@ -39,6 +40,6 @@ export default {
     return {
       doc
     }
-  }
+  },
 }
 </script>

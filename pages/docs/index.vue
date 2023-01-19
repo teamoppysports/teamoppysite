@@ -4,7 +4,7 @@
       <h1>Documentation</h1>
     </v-col>
     <v-col v-for="app in docs" :key="app.name" class="d-flex justify-center" cols="12" lg="6" md="6" sm="12">
-      <v-card class="d-flex flex-column" tile hover outlined :to="app.link" target="_blank" max-width="500" max-height="500">
+      <v-card class="d-flex flex-column" tile hover outlined :to="app.link" max-width="500" max-height="500">
         <v-card-title>
           <span>{{ app.name }}</span>
           <v-spacer></v-spacer>

@@ -5,7 +5,8 @@ description: Tagger Documentation is currently a work in progress.
 
 
 ## Get Started
-
+----------------
+<br/>
 To get started open [Tagger](https://tagger.teamoppy.com)
 
 ### Create a New Game
@@ -16,11 +17,16 @@ In the Tagger page click on the Game menu option and click New.
 
 #### Enter Game Details
 
-- Specify the team names and colors (you can specify a main color and a color for text).
+- Specify the team names and colors (you can specify a main color and a color for text). 
+
 - Specify the Sport. If your sport does not exist then you can create your own sport by clicking on the "+" button beside the sport dropdown.
+
 - Optionally specify the Competition, Date and Venue.
+
 - If you want to do video tagging then specify a video source. You can choose from using a Local file that is on your device or a YouTube or Vimeo url.
+
 - Edit your team lists with the player details (number, name, short name and position).
+
 - Then click save.
 
 <br/>
@@ -30,8 +36,11 @@ In the Tagger page click on the Game menu option and click New.
 From the left navigation menu, select Preferences. In here you specify how you would like the Tagger page to display the player and event buttons.
 
 - Set the Events view to either Tabs or Full. With "Tabs" only one teams set of events will be displayed at a time. This may be preferable on mobile devices or if you are only concerned with tagging your own teams events. With "Full", both teams events are displayed. This is preferable on larger devices (laptops, tablets) and when you are tagging events for both teams.
+
 - Set the Event button display to show either the name of the event, the short name of the event or the event icon. Short names and icons may be preferable for mobile devices. 
+
 - Set the Player button display to show full name or short name. Short name may be preferable on mobile devices.
+
 - Set the Player button badge display. This is the little blue badge that is displayed on the player button. This can be set to display the player number or the player position, whichever is preferable.
 
 <br/>
@@ -67,8 +76,11 @@ To end the game, click on the Timer button and click on the Full time button (re
 <br/>
 <br/>
 
-## Configuration
 
+## Configuration
+----------------
+
+<br/>
 Pretty much everything in Tagger is configurable. From events to playing area graphics, to charts and totals, etc...
 
 At the core of everything is the Event.
@@ -81,9 +93,12 @@ Configuring your event definitions is a vital part of the process within Tagger.
 
 In the Event Configuration tab there are a number of configurable items - Events, Event Groups, Event Labels, Event Links and Event Accelerators.
 
+
 #### Events
 
 When you tag an event in the Tagger page you are tagging an instance of an Event Configuration. Events will behave differently based on the options selected in the configuration.
+
+<ul>
 
 ##### Name
 
@@ -153,11 +168,15 @@ Lead Time is used to allow a lead time for an event when displaying the video cl
 
 Lag Time is used to allow a lag time for an event when displaying the video clip of the event, i.e. the clip will end a number of seconds after the time of the event instance.
 
+</ul>
+
 <br/>
 
 #### Event Groups
 
 Configure your Event Groups. Event Groups form categories for your event buttons and help to control the display in the Tagger page.
+
+<ul>
 
 ##### Name
 
@@ -167,11 +186,15 @@ The Event Group name.
 
 Select to enable this group in the Tagger page.
 
+</ul>
+
 <br/>
 
 #### Event Labels
 
 Configure your Event Label definitions here. Event Labels are used to add additional descriptions to Events. You can add an Event Label to one or more Events.
+
+<ul>
 
 ##### Name
 
@@ -184,6 +207,8 @@ Select to enable this label.
 ##### Label Options
 
 Each label can have a number of label options. These are what is actually selected at runtime in the Tagger page. e.g. for a label called "Body Part", you could have label options for "Right foot", "Left foot" or "Head". You would select one of these options when tagging an event instance.
+
+<ul>
 
 ###### Name
 
@@ -209,11 +234,19 @@ This is the Label Option icon. Users can switch to display the event icon in the
 
 This is a shortened version of the Label Option name. Users can switch to display the label option short name in the Preferences page. Typically used on mobile devices.
 
+</ul>
+
+</ul>
+
 <br/>
 
 ##### Event Links
 
 Define links to automatically activate or select other events when a particular event is selected. e.g. a "Shot" event could have a link to a "Goal" event and a "Wide" event.
+
+What do we mean by activate? We mean that when the "Shot" button is clicked, then the "Goal" and "Wide" event buttons will appear and be selectable.
+
+<ul>
 
 ###### Name
 
@@ -230,3 +263,65 @@ Select the event from which the link will originate from e.g. "Shot" event
 ###### Link Direction
 
 Link direction determines the direction of the link activation. If "One Way" is selected the activation can only happen in one direction i.e. From Event => To Event. "Two Way" means that it is bi-directional.
+
+###### To Event
+
+Select the event to which the link will activate e.g. "Goal" or "Wide" event
+
+</ul>
+
+### General Configuration
+
+In this tab you can specify general settings for the sport e.g. number of players per team, number of periods and number of minutes per period.
+
+<ul>
+
+#### Number of players per team
+
+Specifies the number of players on the team.
+
+#### Number of substitutes per team
+
+Specifies the number of substitutes on the team.
+
+#### Number of periods per game
+
+Specifies the number of periods/halfs.
+
+#### Number of minutes per period
+
+Specifies the number of minutes per period.
+
+#### Number of periods of extra time per game
+
+Specifies the number of periods/halfs of extra time.
+
+#### Number of minutes per period of extra time
+
+Specifies the number of minutes per period of extra time.
+
+#### Enable Player Game Time Tracker
+
+Enables the the Player Game Time Tracker functionality. This tracks the total minutes played by a player in the game along with the current shift time of the player. This can be very useful in sports where roll on/off substitutions are common.
+
+Note: the below options are only visible when the Player Game Time Tracker is enabled.
+
+<ul>
+
+#### Track Opposition Game Time
+
+Typically you may just want to track your own teams playing time. Set this option if you would like to track the opposition also.
+
+#### Show substitutes in the Tagger player list
+
+Selecting this option shows the substitutes in the Tagger page also. This is beneficial to see how the total minutes played by substitutes and also to show their total "off shift" time.
+
+#### Include total time with shift/offshift time in player list
+
+In the Tagger page window you can choose to show the just the Shift time or include the Total time also. Select this option to include the Total time.
+
+
+</ul>
+
+</ul>
+

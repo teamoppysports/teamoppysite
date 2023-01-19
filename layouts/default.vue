@@ -3,7 +3,7 @@
     <header-bar></header-bar>
 
     <v-main>
-      <v-container>
+      <v-container fluid>
         <Nuxt />
       </v-container>
       <footer-links></footer-links>
