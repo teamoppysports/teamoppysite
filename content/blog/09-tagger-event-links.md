@@ -1,7 +1,7 @@
 ---
 title: Tagger - Configure Event Links
 description: The third in a series of blogs to describe how to configure events. This blog focuses on Event Links.
-image: /images/blog/tagger-event-labels/08-event-labels-tagger-labels-available.png
+image: /images/blog/tagger-event-links/17-tagger-event-saved.png
 publishedAt: 2023-01-20
 author:
   name: Teamoppy Sports
