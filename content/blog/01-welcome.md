@@ -24,8 +24,8 @@ TeamOppy Sports provides software applications to assist the Performance Analysi
 
 ### Tagger
 
-Tagger is an event tagging application that allows analysts to tag events that occur in a game (e.g. Shot from play, Possession, etc...). Tagger can be used for tagging during live games and also for post-game video tagging. It comes with a built-in Dashboard which provides real-time summary data, charts, position maps and insights. [Read More](/blog/tagger)
+Tagger is an event tagging application that allows analysts to tag events that occur in a game (e.g. Shot from play, Possession, etc...). Tagger can be used for tagging during live games and also for post-game video tagging. It comes with a built-in Dashboard which provides real-time summary data, charts, position maps and insights. [Read More](/blog/02-tagger)
 
 ### Clipper
 
-Clipper is an advanced video analysis tool that allows analysts to take clips of games, add graphics and text to the clip and create playlists of clips to share with management, team or individual players. [Read More](/blog/clipper)
+Clipper is an advanced video analysis tool that allows analysts to take clips of games, add graphics and text to the clip and create playlists of clips to share with management, team or individual players. [Read More](/blog/03-clipper)
