@@ -26,25 +26,31 @@ Switch this on if you would like to display team end indicators. This is helpful
 
 Playing graphics will by default display as per how they are configured. Select this to rotate the graphic when in portrait mode on a mobile device. This would be commonly used for pitch or court graphics. For goal post graphics it is likely you would leave this unselected.
 
-### Perimeter Type
+### Perimeter
+
+<ul>
+
+#### Type
 
 Currently the only option for perimeter type is Rectangle. More options may be added in the future.
 
-### Perimeter Width
+#### Width
 
 The width of the perimeter as viewed in landscape mode. Tip: you may want to have this a few meters wider than the actual pitch width itself.
 
-### Perimeter Height
+#### Height
 
 The height of the perimeter as viewed in landscape mode. Tip: you may want to have this a few meters wider than the actual pitch height itself.
 
-### Perimeter Line Color
+#### Line Color
 
 The color of the perimeter line. Can be transparent also.
 
-### Perimeter Fill Color
+#### Fill Color
 
 The background color of the perimeter. Can be transparent also.
+
+</ul>
 
 ### Playing Area Objects
 
