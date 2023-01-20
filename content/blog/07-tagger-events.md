@@ -74,7 +74,13 @@ For the purposes of this blog I have started with a blank canvas Football config
 <img src="/images/blog/tagger-events/04-event-new.png" alt="drawing" width="90%"/>
 </p>
 
-- To begin with we will specify a Name, the Event Group that we created in the previous step, a color for the button, we will specify that a Player needs to be selected before we can select the Shot button, we want to track the shot position so we select the "Specify Position for event" option and the Playing Area.
+- To begin with we will specify the following:
+    - a Name
+    - the Event Group that we created in the previous step
+    - a color for the button
+    - specify that it is a Primary Event (so that it will be displayed up front in the Tagger page)
+    - specify that a Player needs to be selected before we can select the Shot button
+    - we want to track the shot position so we select the "Specify Position for event" option and the Playing Area.
 
 <br>
 <p align="center">
