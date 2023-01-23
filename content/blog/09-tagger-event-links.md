@@ -17,6 +17,9 @@ tags:
 
 ## Introduction
 
+Event links are used to automatically activate or select other events when a particular event is selected. e.g. a "Shot" event could have a link to a "Goal" event and a "Wide" event.
+
+What do we mean by activate? We mean that when the "Shot" button is clicked, then the "Goal" and "Wide" event buttons will appear and be selectable.
 
 ## Configure an Event Link
 
