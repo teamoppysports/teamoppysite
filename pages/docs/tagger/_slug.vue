@@ -106,7 +106,7 @@ export default {
 
     const [prev, next] = await $content('docs/tagger')
       .only(['title', 'slug'])
-      .sortBy('createdAt', 'asc')
+      .sortBy('slug', 'asc')
       .surround(params.slug)
       .fetch()
 
