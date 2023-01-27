@@ -71,28 +71,12 @@ export default {
               color: 'green'
             },
             link: 'https://clipper.teamoppy.com'
-          },
-          // {
-          //   name: 'TeamOppy Dropbox',
-          //   icon: {
-          //     name: 'mdi-cloud',
-          //     color: 'blue'
-          //   },
-          //   link: 'https://dbx.teamoppy.com'
-          // }
+          }
         ]
       },
       {
         heading: 'Other',
         items: [
-          {
-            name: 'Sponsor',
-            icon: {
-              name: 'mdi-currency-eur',
-              color: 'teal'
-            },
-            link: 'https://www.buymeacoffee.com/teamoppysports'
-          },
           {
             name: 'Privacy Policy',
             icon: {
