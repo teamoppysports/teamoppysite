@@ -9,6 +9,13 @@ Configuring your event definitions is a vital part of the process within Tagger.
 
 In the Event Configuration tab there are a number of configurable items - Events, Event Groups, Event Labels, Event Links and Event Accelerators.
 
+### Blogs
+
+Learn more about Events in our tutorials here:
+- [Configure Events](https://www.teamoppy.com/blog/07-tagger-events) 
+- [Configure Event Labels](https://www.teamoppy.com/blog/08-tagger-event-labels) 
+- [Configure Event Links](https://www.teamoppy.com/blog/09-tagger-event-links) 
+- [Configure Event Accelerators](https://www.teamoppy.com/blog/10-tagger-event-accelerators) 
 
 ### Events
 
