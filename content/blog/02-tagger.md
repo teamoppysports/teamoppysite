@@ -18,13 +18,13 @@ tags:
 
 ## What is it?
 
-Tagger is an open (no login required) Event Tagging application with a built in Dashboard. It can be used for live game tagging or for post game video tagging. Tagger accelerates the event tagging and analysis process.
+Tagger is an Event Tagging and Analysis application with a built in Dashboard. It can be used for live game tagging or for post game video tagging. Tagger accelerates the event tagging and analysis process.
 
-You can be up and running within seconds of launching the application. Just create a New Game, fill in your team details, choose your sport (or create your own one), start the timer and begin tagging.
+You can be up and running within seconds of launching the application. Just create a New Game, fill in your team details, choose your sport (or create your own one), start the timer and begin tagging. For full functionality Sign Up for an account.
 
 ## Tagging Engine
 
-The tagging engine allows you to tag by player or by team. Simply click on the player button or the team tag button to open the event window. Click on the event along with the event type and event outcome if applicable. Select the event positions and/or outcome positions where applicable to gather x,y data. The event is captured and added to the event table. The Dashboard will be automatically updated.
+The tagging engine allows you to tag by player or by team. Simply click on the player button or the team event button to open the event window. Click on the event along with the event labels if applicable. Select the event positions and/or outcome positions where applicable to gather x,y data. The event is captured and added to the event table. The Dashboard will be automatically updated.
 
 ## Live or Video Tagging
 
