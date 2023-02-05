@@ -4,37 +4,34 @@ description: TeamOppy Sports Privacy Policy
 ---
 
 
-## Does TeamOppy Sports collect personal data?
+At teamoppy.com, we take the privacy of our customers and users seriously. This privacy policy explains how we collect, use, and protect personal data in accordance with the General Data Protection Regulation (GDPR).
 
-No, TeamOppy Sports does not collect or store any personal data. 
+## Controller of Data:
+Teamoppy.com is the controller of personal data processed through our website and services. If you have any questions about our privacy practices, please contact us at info@teamoppy.com.
 
-- Tagger does not collect personal data. Data is local to the device where the application is accessed.
-- Clipper does not collect personal data. Data is local to the device where the application is accessed.
-<!-- - TeamOppy Dropbox does not collect personal data. The application integrates directly with Dropbox where your data is stored. -->
+## Data Collection:
+We may collect personal data from our customers and future customers including but not limited to name, email address, and payment information. This data is collected through our website and through the use of our services.
 
-## Cookies
-Cookies are text files placed on your computer to collect standard Internet log information and visitor behavior information. When you visit our website, we may collect information from you automatically through cookies or similar technology.
+## Data Processing:
+We process personal data for the purpose of providing our services and to improve our website and services. We use SSL encryption to protect personal data during transmission and we use Stripe for payments and Supabase.com for our database. Data is stored in the European Union.
 
-For further information, visit [allaboutcookies.org](https://allaboutcookies.org)
+## Data Retention:
+We retain personal data for as long as it is necessary to provide our services and to comply with legal obligations. When personal data is no longer needed, we will securely delete it.
 
-## How does TeamOppy Sports use cookies?
-TeamOppy uses cookies in a range of ways to improve your experience on our website, including:
+## Data Subject Rights:
+As a data subject, you have the right to access, rectify, and erase your personal data. You also have the right to data portability and to object to the processing of your personal data. If you wish to exercise these rights, please contact us at info@teamoppy.com.
 
-- Keeping track of cookie acceptance.
-- Google Analytics to analyze website traffic and optimize your website experience.
+## Team and Game Data:
+Team and game data is stored in the local storage of the user's device. It is the responsibility of the user to download and save this data for future use.
 
-## Local Storage
-localStorage is a property that allows JavaScript sites and apps to save key-value pairs in a web browser with no expiration date. This means the data stored in the browser will persist even after the browser window is closed.
+## Security Processes:
+We implement appropriate technical and organizational measures to protect personal data against unauthorized access, alteration, disclosure, or destruction.
 
-## How does TeamOppy Sports use local storage?
-TeamOppy Sports uses local storage in a number of ways:
+## Responsibility of the User:
+It is the responsibility of the user to keep their login information secure and to immediately notify us of any unauthorized access to their account.
 
-- to keep you connected to dropbox
-<!-- - to cache data that you retrieve from Dropbox for improved performance. -->
-- overall functionality of the website
+## Changes to Privacy Policy:
+We may update this privacy policy from time to time. Any changes will be posted on our website and will become effective immediately.
 
-## Privacy policies of other websites
-TeamOppy Sports website contains links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.
-
-## How to contact us?
-If you have any questions about TeamOppy Sports privacy policy please contact us [info@teamoppy.com](mailto:info@teamoppy.com)
+## Contact Us:
+If you have any questions about this privacy policy or our privacy practices, please contact us at info@teamoppy.com.
