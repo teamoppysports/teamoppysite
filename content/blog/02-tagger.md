@@ -66,7 +66,7 @@ Tagger generates a JSON (data) file with game and configuration data. This can b
 ### Example
 
 
-[Kilkenny versus Limerick - 2022 All-Ireland Hurling Final](https://tagger.teamoppy.com/?game=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1evoA6USB3yfmxu6X4lqBPoA6pB2zx3gJ%2Fview%3Fusp%3Dsharing) is a simple example of tagging Shots, Puckouts and Possessions.
+[Kilkenny versus Limerick - 2022 All-Ireland Hurling Final](https://tagger.teamoppy.com/?game=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1-B5wTWIoMfON1j0jHLmf0tL2PJMT24Bj%2Fview%3Fusp%3Dshare_link) is a simple example of tagging Shots, Puckouts and Possessions.
 
 
 ## Progressive Web Application
