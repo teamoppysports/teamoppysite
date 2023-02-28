@@ -146,4 +146,4 @@ The quick totals section displays a summary of some of the key events that a man
 
 Manager Mode is the result of weeks of collaboration with coaches, managers and analysts to come up with an optimised tagging view for assisting with live game management from a manager/coach perspective. Hockey was the main sport that this collaboration was focused on, however it can be used and could prove useful across any number of sports.
 
-Thank you to all who participated in this collaboration to bring this feature to fruition!
+Thank you to all who participated in this collaboration (particularly Jimmy Culnane of Wimbledon and England Hockey) to bring this feature to fruition!
