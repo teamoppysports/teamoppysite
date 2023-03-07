@@ -12,6 +12,30 @@ tags:
   - Graphics
 ---
 
+## Mar 7, 2023
+
+This update documents the following changes:
+- New Teams setup functionality
+- Video Analysis mode
+- Live Manager Mode
+
+### New Teams setup functionality
+
+A new "Teams" page accessible from the main menu has now been added. This allows users to add one or more teams, setting default values for the team name, team colors and sport configuration as well as configuring a squad of players. When creating a new game, users can now select their default team which will populate the team name, default colors and sport config from the pre-defined team. In the team selection, users can now quickly select their team using player dropdowns from their squad.
+
+### Video Analysis mode
+
+This is a new Tagger view which can be set in the Preferences page. It is a more optimised view for tagging video with the video player to the top left of the screen, events table underneath. On the right side of the screen will be the player and event buttons along with a prominent timer. This is currently only available on larger devices (large tablets, labtops, etc...)
+
+### Live Manager Mode
+
+Manager Mode was developed in collaboration with expert coaches, managers and analysts from the world of Hockey (relevant for many other sports also). The purpose of this feature is to support Coaches and Managers in particular during live games to manage rolling substitutions and on-field positional switches, monitor cards and countdowns, track players game time, throw alerts when specialist type players like a Flicker or Trapper are not on the field of play, change formations during the game and to display Quick Totals (basic counts of things like Shots and Penalty Corners).
+
+The Manager Mode feature was designed and optimised in particular for Tablet and larger devices (Standard mode is available for mobile devices).
+
+See here for more details - [Tagger - Manager Mode](/blog/11-tagger-manager-mode)
+
+
 ## Jan 19, 2023
 
 This update documents the following changes:
