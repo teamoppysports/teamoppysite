@@ -12,6 +12,25 @@ tags:
   - Graphics
 ---
 
+## Mar 9, 2023
+
+This update documents the following changes:
+- Ability to change button sizes
+- FIX: Adjust height on graphics for display on Tablet devices
+- FIX: Timer refactoring to prevent time lag
+
+### Ability to change button sizes
+
+Users now have the option of changing the size of the Player and Event buttons to suit their device and configuration. This can be done in the Preferences page with the addition of 2 new dropdowns for Player Button Size and Event Button Size.
+
+### FIX: Adjust height on graphics for display on Tablet devices
+
+For graphics with heights greater than the height of the device they are using, the graphics will now be scaled down accordingly.
+
+### FIX: Timer refactoring to prevent time lag
+
+It was reported that on some older devices with low processing power that users noticed a lag in the Timer. The Timer functionality has now been refactored to always be synched up correctly.
+
 ## Mar 7, 2023
 
 This update documents the following changes:
