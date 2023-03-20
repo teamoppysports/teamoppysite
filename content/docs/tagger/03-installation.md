@@ -9,27 +9,27 @@ Progressive web applications (PWAs) are a new type of web application that combi
 
 ### Android devices:
 
-- Open the PWA website in Google Chrome.
+- Open [Tagger](https://tagger.teamoppy.com) in Google Chrome.
 - Click on the three dots in the top-right corner of the screen.
 - Select "Add to home screen."
 - A pop-up will appear asking you to confirm the installation. Click "Add."
-- The PWA icon will now appear on your home screen.
+- The Tagger icon will now appear on your home screen.
 
 ### iOS devices:
 
-- Open the PWA website in Safari.
+- Open [Tagger](https://tagger.teamoppy.com) in Safari.
 - Click on the share icon (square with an upward arrow).
 - Select "Add to Home Screen."
 - A pop-up will appear asking you to confirm the installation. Click "Add."
-- The PWA icon will now appear on your home screen.
+- The Tagger icon will now appear on your home screen.
 
 ### Desktop:
 
-- Open the PWA website in a web browser that support PWAs (Chrome, Firefox, Edge)
+- Open [Tagger](https://tagger.teamoppy.com) in a web browser that support PWAs (Chrome, Firefox, Edge)
 - Click on the settings icon (three dots) in the top-right corner of the screen.
 - Select "Install Tagger"
 - A pop-up will appear asking you to confirm the installation. Click "Add."
-- The PWA icon will now appear on your home screen.
+- The Tagger icon will now appear on your home screen.
 
 <br>
 
