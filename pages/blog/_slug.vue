@@ -16,7 +16,7 @@
         <p class="font-weight-thin text-caption">Last updated: {{ formatDate(article.updatedAt) }}</p>
       </v-col>
 
-      <v-col cols="12" md="4">
+      <v-col cols="12">
         <h3>Table of Contents</h3>
         <nav>
           <ul>
@@ -27,7 +27,7 @@
         </nav>
       </v-col>
 
-      <v-col cols="12" md="8" class="d-flex justify-center">
+      <v-col cols="12" class="d-flex justify-center">
         <img :src="article.image" :alt="article.alt" :width="imageWidth" />
       </v-col>
 

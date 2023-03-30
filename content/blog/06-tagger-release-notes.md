@@ -12,6 +12,46 @@ tags:
   - Graphics
 ---
 
+## Mar 30, 2023
+
+This update documents the following changes:
+- Tagger Technology Stack Upgrade
+- Enhanced Guided Tagger Flow
+- New Install Button
+- New look menu options
+- New look configuration page
+- Continuous Timer under main Timer
+- Dark and Light Theme options
+
+### Tagger Technology Stack Upgrade
+
+The underlying technology stack has been upgraded to the very latest versions. This provides better performance, stability and lays the foundation for future innovations.
+
+### Enhanced Guided Tagger Flow
+
+The tagging engine is much zippier now thanks to the latest technology and a restructuring of the code. The process is now also much smoother with a new pop-out window which aligns to the right hand side of the screen. This means that for video tagging you have full view of the video at all times when tagging (using Video Analysis mode). The app also guides you through the available options to select based on the Event Configuration in a more intuitive way.
+
+### New Install Button
+
+There is a new install button on the main welcome page. On Windows and Android devices this will trigger the installation process. On iOS devices you will be directed to the manual instructions for installing (which is also very straight forward – same as before).
+
+### New look menu options
+
+The left hand navigation bar has a new layout.
+
+### New look configuration page
+
+A new look configuration page provides a more desciption view of the Configuration options in Tagger.
+
+### Continuous Timer under main Timer
+
+The continous timer (previously hidden) is now visible underneath the main Timer in Manager Mode.
+
+### Dark and Light Theme options
+
+Tagger can now be viewed in a Light mode instead of the classic Dark mode by updating the preferences.
+
+
 ## Mar 9, 2023
 
 This update documents the following changes:
