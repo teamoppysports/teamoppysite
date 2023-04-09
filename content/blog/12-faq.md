@@ -21,6 +21,13 @@ The Manager Mode layout has been optimised specifically for use with tablets in 
 
 [Samsung](https://www.samsung.com/us/support/answer/ANS00088202/)
 
+## I am in Manager Mode but clicking on players is not triggering substitution. What is happening?
+
+Check the Preferences page. The Live Manager Mode - Default Player Event needs to be set to Substitute/Switch for substitution to automatically be triggered when clicking on a player.
+
+## In Manager Mode I see 2 times displayed in the Timer. What is the 2nd time?
+
+The main larger timer pauses and plays when the pause/play button is pressed. The second smaller timer is a continuous time that only stops when you end a period or end the game. The continuous time is what is used when synching up video with your live game data post game.
 
 ## How do I save a game?
 
@@ -45,3 +52,11 @@ There are a number of options that you can select on the Preferences page to adj
 ## What is the best way of sharing the game with others?
 
 There are a couple of options for Sharing the game - these are outlined on the Share page in the Tagger app. You can either download the file and send by email or otherwise to other people. Or you can upload to Google Drive and create a direct Tagger link using the Google Drive shared link. The direct Tagger link is a popular way of sharing data.
+
+## How do I Sign up to Tagger?
+
+Click the Sign In button on the top right of the screen. Then click the Sign Up Now link to sign up to TeamOppy Tagger.
+
+## I am signed up and my trial period has ended. How do I subscribe?
+
+Click on your email at the top right of the screen to go to your profile. Scroll down to the end and follow the steps to sign up.
