@@ -25,9 +25,9 @@ The Manager Mode layout has been optimised specifically for use with tablets in 
 
 Check the Preferences page. The Live Manager Mode - Default Player Event needs to be set to Substitute/Switch for substitution to automatically be triggered when clicking on a player.
 
-## In Manager Mode I see 2 times displayed in the Timer. What is the 2nd time?
+<!-- ## In Manager Mode I see 2 times displayed in the Timer. What is the 2nd time?
 
-The main larger timer pauses and plays when the pause/play button is pressed. The second smaller timer is a continuous time that only stops when you end a period or end the game. The continuous time is what is used when synching up video with your live game data post game.
+The main larger timer pauses and plays when the pause/play button is pressed. The second smaller timer is a continuous time that only stops when you end a period or end the game. The continuous time is what is used when synching up video with your live game data post game. -->
 
 ## How do I save a game?
 
